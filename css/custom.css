@@ -1,0 +1,102 @@
+/*sofia pro regular*/
+@font-face {
+    font-family: 'sofia_proregular';
+    src: url('sofia_pro_regular-webfont.woff2') format('woff2'),
+    url('sofia_pro_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  */
+/*andika*/
+@font-face {
+    font-family: 'andika_new_basicregular';
+    src: url('andikanewbasic-r-webfont.woff2') format('woff2'),
+    url('andikanewbasic-r-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*geomanist*/
+@font-face {
+    font-family: 'geomanistregular';
+    src: url('geomanist-regular-webfont.eot');
+    src: url('geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('geomanist-regular-webfont.woff2') format('woff2'),
+    url('geomanist-regular-webfont.woff') format('woff'),
+    url('geomanist-regular-webfont.ttf') format('truetype'),
+    url('geomanist-regular-webfont.svg#geomanistregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    height: 100%;
+    background: linear-gradient(180deg, #c1d9ff 0%, rgba(255, 255, 255, 0.2) 100%);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #343a40;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0 16px 0 16px;
+    text-decoration: none;
+  }
+
+  #fotoDiri{
+      width: 80%
+  }
+
+  .deskripsi{
+      padding: 10px 0 0 0;
+      font-size: 20px;
+  }
+
+  .title-section{
+      text-align: center;
+  }
+
+  #footer-section {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #343a40;
+    width: 100%;
+    height: fit-content + 10px;
+}
+.list-inline-group{
+    text-align: center;
+    color: white;
+}
+
+th{
+    text-align: center;
+}
+
+.th-tempuh{
+    text-align: center;
+}
+
+.list-group-item{
+    border: none;
+}
+
+.checked {
+    color: orange;
+  }
+@media screen and (max-width: 900px) {
+    
+}
