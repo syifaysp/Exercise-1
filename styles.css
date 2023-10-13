@@ -377,6 +377,10 @@ img {
   display: inline-block;
 }
 
+.grid-wrapper{
+  margin-top: 100px;
+}
+
 .grid-wrapper > div{
   display: flex;
   justify-content: center;
